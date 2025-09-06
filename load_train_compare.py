@@ -223,7 +223,7 @@ if __name__ == '__main__':
     parser.add_argument('--data_path', type=str, default='data', help='dataset path')
     parser.add_argument('--original_epochs', type=int, default=100)
     parser.add_argument('--distilled_epochs', type=int, default=300)
-    parser.add_argument('--distilled_path', type=str)
+    parser.add_argument('--distilled_path', type=str, default='DSA_CIFAR10_ConvNet_50ipc')
 
     args = parser.parse_args()
 
@@ -242,7 +242,7 @@ if __name__ == '__main__':
     labels_all = torch.tensor(labels_all, dtype=torch.long, device=device)
 
     # load distilled data
-    data = torch.load(f'./result/{args.distilled_path}.pt')['data'][0]
+    data = torch.load(f'./distilled_sets/{args.distilled_path}.pt')['data'][0]
     images_distilled, labels_distilled = data[0], data[1]  
     dst_distilled = TensorDataset(images_distilled, labels_distilled)
      
