@@ -1,5 +1,0 @@
-python load_train_compare.py --distilled_path res_DC_CIFAR10_ConvNet_50ipc  > table_one_terminals/models_res_DC_CIFAR10_ConvNet_50ipc.log
-python load_train_compare.py --distilled_path res_DC_CIFAR10_ConvNet_10ipc  > table_one_terminals/models_res_DC_CIFAR10_ConvNet_10ipc.log
-python load_train_compare.py --distilled_path res_DSA_CIFAR10_ConvNet_50ipc  > table_one_terminals/models_res_DSA_CIFAR10_ConvNet_50ipc.log
-python load_train_compare.py --distilled_path res_DSA_CIFAR10_ConvNet_10ipc  > table_one_terminals/models_res_DSA_CIFAR10_ConvNet_10ipc.log
-python load_train_compare.py --distilled_path res_DM_CIFAR10_ConvNet_10ipc  > table_one_terminals/models_res_DC_CIFAR10_ConvNet_10ipc.log
