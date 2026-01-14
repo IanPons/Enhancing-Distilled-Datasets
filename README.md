@@ -28,7 +28,8 @@ If you find this code or our paper useful for your research, please consider cit
 @inproceedings{pons2025enhancing,
   title={Enhancing Distilled Datasets via Natural Data Mixing},
   author={Pons, Ian and Stern, Guilherme B. and Costa, Anna H. Reali and Jordao, Artur},
-  booktitle={Conference on Graphics, Patterns and Images (SIBRAPI)},
+  booktitle={Conference on Graphics, Patterns and Images (SIBGRAPI)},
   year={2025}
 }
 ```
+
